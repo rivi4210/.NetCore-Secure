@@ -1,0 +1,105 @@
+﻿body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    direction: rtl; 
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    max-width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+    #title h1 {
+        margin: 0;
+        font-size: 2em;
+        color: #333;
+    }
+
+    #title p {
+        margin-top: 10px;
+        font-size: 1.2em;
+        color: #555;
+    }
+
+.nxbtn.primary {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+    .nxbtn.primary:hover {
+        background-color: #0056b3;
+    }
+
+.shopmore {
+    color: #007BFF;
+    padding: 12px 24px;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    margin: 5px;
+}
+
+    .shopmore:hover {
+        color: #0056b3;
+        background-color: #e9ecef;
+    }
+
+.ClearBoth {
+    clear: both;
+}
+
+.items {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    .items th, .items td {
+        padding: 15px;
+        text-align: center;
+        border: 1px solid #dddddd;
+    }
+
+    .items th {
+        background-color: #007BFF;
+        color: #ffffff;
+        font-size: 1em;
+    }
+
+    .items td {
+        background-color: #ffffff;
+        color: #333;
+    }
+
+.totalColumn .DeleteButton {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+    .totalColumn .DeleteButton:hover {
+        background-color: #c82333;
+    }
