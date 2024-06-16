@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vvuUAe0vVZNtPs6pANYwTzsXFUR60jwcJuXlT3jUKT3cKjTylh0Kd61uGnz4V495Qhkq3YMfOOXE00EXyMYoPw==",
+  "dgSpecHash": "HK5dffvl+S7JxqVa6EAXB5/XFVZNUR+MWUVn2UxzQ34qHYiezOfXxfjDwAZGgB+mkY1EXKBx0Gl/dQc5ZosJog==",
   "success": true,
-  "projectFilePath": "M:\\אבטמ\\token\\TestProjectMyShop\\TestProjectMyShop.csproj",
+  "projectFilePath": "M:\\אבטמ\\password\\TestProjectMyShop\\TestProjectMyShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\326238102\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\326238102\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

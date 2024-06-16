@@ -50,7 +50,7 @@ const handleLogin = async () => {
             alert(`Welcome ${data.userName}`);
             console.log("User ID:", data.userId);
 
-            sessionStorage.setItem("userID", data.userId);
+            //sessionStorage.setItem("userID", data.userId);
             sessionStorage.setItem("basket", "[]");
             window.location.replace("Products.html");
         }

@@ -19,7 +19,7 @@ namespace Repositories
         }
         public RatingRepository()
         {
-            
+
         }
 
         public async Task<Rating> Post(Rating r)

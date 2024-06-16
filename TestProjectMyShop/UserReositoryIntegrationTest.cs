@@ -25,7 +25,7 @@ namespace TestProject
         {
             var username = "aaa";
             var password = "a123s123";
-            var login = new LoginDTO { Password = password,  UserName = username };
+            var login = new LoginDTO { Password = password, UserName = username };
             var user = new User { Email = "aaa@gmail.com", Password = password, FirstName = "SHEVA", LastName = "KAPLAN", UserName = username };
 
             await _dbontext.Users.AddAsync(user);

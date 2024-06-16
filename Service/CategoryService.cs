@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class CategoryService : ICategoryService
+    public class CategoryService: ICategoryService
     {
         private ICategoryRepository _categoryRepository;
         public CategoryService(ICategoryRepository categoryRepository)

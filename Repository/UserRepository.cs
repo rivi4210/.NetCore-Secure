@@ -14,8 +14,8 @@ namespace Repositories
 
         public async Task<User> Login(LoginDTO userLogin)
         {
-            User userDb= await _shopDbContext.Users.FirstOrDefaultAsync(u => userLogin.UserName.Equals(u.UserName)&& userLogin.Password.Equals(u.Password));
-            if(userDb==null)
+            User userDb = await _shopDbContext.Users.FirstOrDefaultAsync(u => userLogin.UserName.Equals(u.UserName) );
+            if (userDb == null)
             {
                 return null;
             }
@@ -23,23 +23,23 @@ namespace Repositories
         }
         public async Task<User> Register(User user)
         {
-            var userDb = await _shopDbContext.Users.FirstOrDefaultAsync(u=>user.UserName.Equals(u.UserName));
-                
+            var userDb = await _shopDbContext.Users.FirstOrDefaultAsync(u => user.UserName.Equals(u.UserName));
+
             if (userDb != null)
             {
-                return null;  
+                return null;
             }
 
             await _shopDbContext.Users.AddAsync(user);
             await _shopDbContext.SaveChangesAsync();
             return user;
         }
-        public async Task<User> Update(int id,User user)
+        public async Task<User> Update(int id, User user)
         {
-            var userDb=await _shopDbContext.Users.FirstOrDefaultAsync(u => u.UserId==id);
+            var userDb = await _shopDbContext.Users.FirstOrDefaultAsync(u => u.UserId == id);
             if (userDb == null)
                 return null;
-           
+
             userDb.UserName = user.UserName;
             userDb.Password = user.Password;
             userDb.FirstName = user.FirstName;
@@ -55,6 +55,6 @@ namespace Repositories
             var user = await _shopDbContext.Users.FindAsync(id);
             return user;
         }
- 
+
     }
 }

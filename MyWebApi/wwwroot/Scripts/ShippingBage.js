@@ -118,7 +118,6 @@ const getProductsFromBasket = async () => {
 const formatOrderData = (products) => {
     try {
         return {
-            userId: JSON.parse(sessionStorage.getItem("userID")),
             orderItems: products
         };
     } catch (error) {

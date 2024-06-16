@@ -147,3 +147,15 @@ M:\אבטמ\token\Models\obj\Debug\net8.0\Entities.dll
 M:\אבטמ\token\Models\obj\Debug\net8.0\refint\Entities.dll
 M:\אבטמ\token\Models\obj\Debug\net8.0\Entities.pdb
 M:\אבטמ\token\Models\obj\Debug\net8.0\ref\Entities.dll
+M:\אבטמ\password\Models\bin\Debug\net8.0\Entities.deps.json
+M:\אבטמ\password\Models\bin\Debug\net8.0\Entities.dll
+M:\אבטמ\password\Models\bin\Debug\net8.0\Entities.pdb
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.sourcelink.json
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.dll
+M:\אבטמ\password\Models\obj\Debug\net8.0\refint\Entities.dll
+M:\אבטמ\password\Models\obj\Debug\net8.0\Entities.pdb
+M:\אבטמ\password\Models\obj\Debug\net8.0\ref\Entities.dll

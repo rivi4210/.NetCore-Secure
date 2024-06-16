@@ -28,7 +28,7 @@ namespace TestProjectMyShop
             var service = new ProductRepository(mockDbContext.Object);
 
             // Act
-            var result = await service.Get("aaa",10,100,[1],10,10);
+            var result = await service.Get("aaa", 10, 100, [1], 10, 10);
 
             // Assert
             Assert.NotNull(result);

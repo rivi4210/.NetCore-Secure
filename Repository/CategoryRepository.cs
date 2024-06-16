@@ -19,13 +19,13 @@ namespace Repositories
         }
         public async Task<List<Category>> Get()
         {
-            var category = await _shopDbContext.Categories.ToListAsync();                                     
+            var category = await _shopDbContext.Categories.ToListAsync();
             return category;
         }
 
         public async Task<List<Category>> Get(int id)
         {
-            var category = await _shopDbContext.Categories.Where(c=>c.CategoryId==id).ToListAsync();
+            var category = await _shopDbContext.Categories.Where(c => c.CategoryId == id).ToListAsync();
             return category;
         }
 

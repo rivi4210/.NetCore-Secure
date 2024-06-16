@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class ProductService:IProductService
+    public class ProductService: IProductService
     {
         private IProductRepository _productRepository;
         public ProductService(IProductRepository productRepository)
@@ -16,12 +16,9 @@ namespace Services
             _productRepository = productRepository;
         }
 
-        public async Task<IEnumerable<Product>> Get( string? desc, int? minPrice, int? maxPrice, int?[] categoryIds, int position, int skip)
+        public async Task<IEnumerable<Product>> Get(string? desc, int? minPrice, int? maxPrice, int?[] categoryIds, int position, int skip)
         {
-            return  await _productRepository.Get(desc, minPrice, maxPrice, categoryIds, position, skip);  
+            return await _productRepository.Get(desc, minPrice, maxPrice, categoryIds, position, skip);
         }
-
-        
-
     }
 }

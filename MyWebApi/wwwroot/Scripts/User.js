@@ -7,11 +7,25 @@ window.addEventListener("load", async function () {
 });
 
 const getDetails = async () => {
-    userId = await JSON.parse(sessionStorage.getItem("userID"))
+    //userId = await JSON.parse(sessionStorage.getItem("userID"))
+    userId = await getUserId();
     currentUser = await getCurrentUser();
     console.log(currentUser);
     console.log("u", userId);
 };
+
+const getUserId =async () => {
+    try {
+        const response = await fetch("api/User/id");
+        const user = await response.json();
+        if (user!=-1) {
+            console.log(user);
+            return user;
+        }
+    } catch {
+        alert("try again");
+    }
+}
 
 const getCurrentUser = async () => {
     try {

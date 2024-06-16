@@ -19,7 +19,7 @@ namespace MyWebApi
             _next = next;
         }
 
-        public Task Invoke(HttpContext httpContext,IRatingService ratingService)
+        public Task Invoke(HttpContext httpContext, IRatingService ratingService)
         {
             Rating r = new Rating();
             r.Host = httpContext.Request.Host.Host;

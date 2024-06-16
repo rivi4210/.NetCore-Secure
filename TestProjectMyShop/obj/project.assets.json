@@ -8111,11 +8111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\אבטמ\\token\\TestProjectMyShop\\TestProjectMyShop.csproj",
+      "projectUniqueName": "M:\\אבטמ\\password\\TestProjectMyShop\\TestProjectMyShop.csproj",
       "projectName": "TestProjectMyShop",
-      "projectPath": "M:\\אבטמ\\token\\TestProjectMyShop\\TestProjectMyShop.csproj",
+      "projectPath": "M:\\אבטמ\\password\\TestProjectMyShop\\TestProjectMyShop.csproj",
       "packagesPath": "C:\\Users\\326238102\\.nuget\\packages\\",
-      "outputPath": "M:\\אבטמ\\token\\TestProjectMyShop\\obj\\",
+      "outputPath": "M:\\אבטמ\\password\\TestProjectMyShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8136,14 +8136,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "M:\\אבטמ\\token\\DTO\\DTO.csproj": {
-              "projectPath": "M:\\אבטמ\\token\\DTO\\DTO.csproj"
+            "M:\\אבטמ\\password\\DTO\\DTO.csproj": {
+              "projectPath": "M:\\אבטמ\\password\\DTO\\DTO.csproj"
             },
-            "M:\\אבטמ\\token\\Models\\Entities.csproj": {
-              "projectPath": "M:\\אבטמ\\token\\Models\\Entities.csproj"
+            "M:\\אבטמ\\password\\Models\\Entities.csproj": {
+              "projectPath": "M:\\אבטמ\\password\\Models\\Entities.csproj"
             },
-            "M:\\אבטמ\\token\\Repository\\Repositories.csproj": {
-              "projectPath": "M:\\אבטמ\\token\\Repository\\Repositories.csproj"
+            "M:\\אבטמ\\password\\Repository\\Repositories.csproj": {
+              "projectPath": "M:\\אבטמ\\password\\Repository\\Repositories.csproj"
             }
           }
         }

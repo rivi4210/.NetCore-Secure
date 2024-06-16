@@ -14,7 +14,9 @@ namespace Services
         Task<User> Register(User user);
         Task<User> Update(int id, User user);
         Task<User> Get(int id);
+        int GetId();
         int Check(object password);
         Task<UserDTO> ReturnPrev(int id, UserDTO user);
+
     }
 }

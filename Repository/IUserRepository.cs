@@ -12,7 +12,7 @@ namespace Repositories
     {
         Task<User> Login(LoginDTO user);
         Task<User> Register(User user);
-        Task<User> Update(int id,User user);
+        Task<User> Update(int id, User user);
         Task<User> Get(int id);
     }
 }

@@ -17,9 +17,9 @@ namespace Repositories
         }
         public async Task<Order> Post(Order order)
         {
-           await _shopDbContext.Orders.AddAsync(order);
-           await _shopDbContext.SaveChangesAsync();
-           return order;
+            await _shopDbContext.Orders.AddAsync(order);
+            await _shopDbContext.SaveChangesAsync();
+            return order;
         }
     }
 }
